@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+    "type": "datasource",
+    "name": "Monzphere Datadog(monzphere.com)",
+    "id": "monzphere-datadog-datasource",
+    "metrics": true,
+    "backend": true,
+    "executable": "gpx_datadog",
+    "info": {
+        "description": "Datadog data source plugin developed by Monzphere",
+        "author": {
+            "name": "Monzphere",
+            "url": "https://monzphere.com"
+        },
+        "keywords": [
+            "datasource",
+            "datadog",
+            "metrics",
+            "logs"
+        ],
+        "logos": {
+            "small": "img/logo.svg",
+            "large": "img/logo.svg"
+        },
+        "links": [
+            {
+                "name": "Website",
+                "url": "https://monzphere.com"
+            },
+            {
+                "name": "Developer",
+                "url": "https://monzphere.com"
+            }
+        ],
+        "screenshots": [],
+        "version": "1.0.0",
+        "updated": "2024-11-21"
+    },
+    "dependencies": {
+        "grafanaDependency": ">=10.4.0",
+        "plugins": []
+    },
+    "buildMode": "production"
+}
